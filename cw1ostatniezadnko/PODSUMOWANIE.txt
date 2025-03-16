@@ -1,0 +1,5 @@
+Standardowy merge zachowuje pe³n¹ historiê commitów z ga³êzi feature, dodaj¹c dodatkowy commit scalaj¹cy. Jest to metoda preferowana w pracy zespo³owej, gdzie istotne jest œledzenie wszystkich zmian oraz zachowanie kontekstu historycznego.
+
+Squash merge ³¹czy wszystkie zmiany w jeden commit, co upraszcza historiê i sprawia, ¿e jest bardziej przejrzysta. Taka metoda jest szczególnie u¿yteczna w przypadku ma³ych funkcjonalnoœci lub poprawek, które nie wymagaj¹ œledzenia pe³nej historii commitów.
+
+Rebase + merge pozwala na przeniesienie commitów z ga³êzi feature na wierzch historii main, dziêki czemu struktura repozytorium pozostaje liniowa i bardziej uporz¹dkowana. Jest to szczególnie korzystne w projektach wymagaj¹cych czytelnej historii zmian, jednak mo¿e prowadziæ do problemów w pracy zespo³owej, jeœli inni programiœci równoczeœnie pracuj¹ na tej samej ga³êzi.
